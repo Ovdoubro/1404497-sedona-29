@@ -3,10 +3,180 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
   </head>
   <body>
+   <header>
+     <nav>
+       <ul>
+         <li>
+          <a href="#">Информация</a>
+         </li>
+         <li">
+          <a href="#">Фото и видео</a>
+          </li>
+         <li>
+           <a href="#">
+             <img src="" alt="logo">
+           </a>
+         </li>
+         <li>
+          <a href="#">Карта штата</a>
+          </li>
+         <li>
+          <a href="#">Гостиницы</a>
+         </li>
+       </ul>
+     </nav>
+     </header>
+     <main>
+       <section>
+        <img src="" alt="Welcome to Sedona">
+       </section>
+       <section>
+         <h2>Седона-небольшой городок в Аризоне, <br> заслуживающий большего!</h2>
+         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+       </section>
+       <section>
+         <div>
+           <h2>Настоящий городок</h2>
+           <p>№1</p>
+           <p>Седона-не аттракцион для туристов, там <br> течет своя жизнь</p>
+         </div>
+         <img src="" alt="Настоящий городок">
+       </section>
+       <section>
+         <ul>
+           <li>
+            <img src="" alt="home">
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, <br> всё как в кино!</p>
+           </li>
+           <li>
+            <img src="" alt="food">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p>
+          </li>
+          <li>
+           <img src="" alt="gift">
+           <h2>Сувениры</h2>
+           <p>Не только китайского, но и местного <br> производства!</p>
+          </li>
+         </ul> 
+       </section>
+       <section>
+        <img src=""  alt="Мост дьявола">
+        <div>
+          <h2>Там есть  <br> Мост дьявола</h2>
+          <p>№2</p>
+          <p>Да, по нему можно пройти! Если конечно <br> вы осмелитесь</p>
+        </div>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <h2>Небольшая площадь</h2>
+            <p>№3</p>
+            <p>Все достопримечательности <br> находятся очень близко</p>
+          </li>
+          <li>
+            <h2>Красивая дорога</h2>
+            <p>№4</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем <br> не скучно!</p>
+          </li>
+          <li>
+            <h2>Мало туристов</h2>
+            <p>№5</p>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,<br>
+          мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button>Поиск гостиницы в Седоне</button>
+        <div>
+          <form>
+            <label>
+              <p>Дата заезда:</p>
+              <div> <!-- серое поле -->
+                <input type="text" value="24 апреля 2017"> <!-- само поле ввода -->
+                <button>
+                  <img src="" alt="Calendar">
+                </button>
+              </div>
+            </label>
+            <label>
+              <p>Дата выезда:</p>
+              <div> <!-- серое поле -->
+                <input type="text" value="4 июля 2017"> <!-- само поле ввода -->
+                <button>
+                  <img src="" alt="Calendar">
+                </button>
+              </div>
+            </label>
+            <div>
+              <label>
+                <p>Взрослые:</p>
+                <div> <!-- серое поле -->
+                  <button>
+                    <img src="" alt="Minus">
+                  </button>
+                  <input type="text" value="2"> <!-- само поле ввода -->
+                  <button>
+                    <img src="" alt="Plus">
+                  </button>
+                </div>
+              </label>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+              <label>
+                <p>Дети:</p>
+                <div> <!-- серое поле -->
+                  <button>
+                    <img src="" alt="Minus">
+                  </button>
+                  <input type="text" value="0"> <!-- само поле ввода -->
+                  <button>
+                    <img src="" alt="Plus">
+                  </button>
+                </div>
+              </label>
+            </div>
+            <button>Найти</button>
+          </form>
+        </div>
 
+       <!--<div>Здесь будет карта</div>-->
+      </section>
+     </main>
+     <footer>
+      <div>
+       <a href="#">#visitsedona</a>
+       <a href="tel:+7(495)666-01-66">Тел: +7(495) 666-01-66</a>
+      </div>
+      <div>
+       <ul>
+        <li>
+          <a href="#">Твиттер</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Ютуб</a>
+        </li>
+       </ul>
+      </div>
+    <div>
+      <p>website by
+        <a href="https://htmlacademy.ru">
+         <img src="" alt="Логотип Html academy">
+        </a>
+      </p>
+    </div>
+
+   </footer>
   </body>
 </html>
