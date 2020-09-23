@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Оля Дубровская](https://up.htmlacademy.ru/htmlcss/29/user/1404497).
-* Наставник: [Ольга Дука] (https://htmlacademy.ru/profile/id337127)
+* Наставник: [Антон Савельев] (https://htmlacademy.ru/profile/id1101501)
 
 ---
 
